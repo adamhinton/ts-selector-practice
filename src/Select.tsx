@@ -9,4 +9,6 @@ type SelectProps = {
   value?: SelectOption;
 };
 
-export function Select({ value, onChange, options }: SelectProps) {}
+export function Select({ value, onChange, options }: SelectProps) {
+  return <div className="container"></div>;
+}
