@@ -39,3 +39,20 @@
   align-self: stretch;
   width: 0.05em;
 }
+
+.caret {
+  translate: 0 25%;
+  border: 0.25em solid transparent;
+  border-top-color: #777;
+}
+
+.options {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+
+options.show {
+  display: block;
+}
